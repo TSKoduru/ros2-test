@@ -80,7 +80,7 @@ private:
     double beta_error_last_ = 0.0;
 
     // Shared thresholds for goal reaching
-    const double dist_thresh_ = 0.01;
+    const double dist_thresh_ = 0.1;
     const double angle_thresh_ = 0.2;
 
     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
@@ -164,6 +164,7 @@ private:
         // else: pose is already updated by odom_callback
 
         // Calculate errors
+        /*
         double dx = goal_x_ - current_x_;
         double dy = goal_y_ - current_y_;
         double distance = std::sqrt(dx * dx + dy * dy);
@@ -172,17 +173,17 @@ private:
 
         // PID gains
         // TODO #4: Tune these gains for better performance
+        
         double Kp_lin = 20.0, Ki_lin = 0.03, Kd_lin = 5;
         double Kp_ang = 30.0, Ki_ang = 0.07, Kd_ang = 0.5;
         double Kp_ang_lin = 5, Ki_ang_lin = 0.05, Kd_ang_lin = 0; // Angular corrections DURING linear phase
+        
 
         double dt = 0.05;  // Match 50ms timer period
         double integral_limit = 100.0;  // Windup protection
+        */
 
-        if (use_unicycle_control_)
-            geometry_msgs::msg::Twist cmd = compute_unicycle_control();
-        else 
-            geometry_msgs::msg::Twist cmd = compute_rtr_control(distance, angle_error);
+        geometry_msgs::msg::Twist cmd = compute_rtr_control();
 
         // Safety limits
         cmd.linear.x = std::clamp(cmd.linear.x, -0.2, 0.2);
@@ -203,7 +204,7 @@ private:
         // PID gains
         double Kp_lin = 20.0, Ki_lin = 0.03, Kd_lin = 5;
         double Kp_alpha = 30.0, Ki_alpha = 0.07, Kd_alpha = 0.5;
-        double Kp_beta = -7, Ki_beta = 0, Kd_beta = -7/3; 
+        double Kp_beta = -4, Ki_beta = 0, Kd_beta = -1.2; 
 
         double dt = 0.05;  // Match 50ms timer period
         double integral_limit = 100.0;  // Windup protection
@@ -224,7 +225,7 @@ private:
                                         -1 * integral_limit, integral_limit);
             
             // Handle I terms
-            cmd.angular.z += Ki_alpha * alpha_error_sum_ + Ki_beta * beta_error_sum_;            cmd.angular.z += ;
+            cmd.angular.z += Ki_alpha * alpha_error_sum_ + Ki_beta * beta_error_sum_;
             cmd.linear.x += Ki_lin * lin_error_sum_;
 
             //calculate approximate derivatives and handle D terms
@@ -265,6 +266,7 @@ private:
     }
 
     geometry_msgs::msg::Twist compute_rtr_control() {
+        
         geometry_msgs::msg::Twist cmd;
         // Calculate errors
         double dx = goal_x_ - current_x_;
@@ -277,12 +279,10 @@ private:
         // TODO #4: Tune these gains for better performance
         double Kp_lin = 20.0, Ki_lin = 0.03, Kd_lin = 5;
         double Kp_ang = 30.0, Ki_ang = 0.07, Kd_ang = 0.5;
-        double Kp_ang_lin = 5, Ki_ang_lin = 0.05, Kd_ang_lin = 0; // Angular corrections DURING linear phase
+        double Kp_ang_lin = 3, Ki_ang_lin = 0.05, Kd_ang_lin = 0; // Angular corrections DURING linear phase
 
         double dt = 0.05;  // Match 50ms timer period
         double integral_limit = 100.0;  // Windup protection
-
-        geometry_msgs::msg::Twist cmd;
 
         // STATE 1: Turn toward target
         if (distance > dist_thresh_ && std::fabs(angle_error) > angle_thresh_) {
@@ -384,6 +384,8 @@ private:
                 load_next_goal();
             }
         }
+
+        return cmd;
     }    
         
     void load_next_goal() {

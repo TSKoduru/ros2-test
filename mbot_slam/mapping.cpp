@@ -92,16 +92,16 @@ namespace mbot_slam {
         int curr_x = grid_start_x, curr_y = grid_start_y;
 
 
-        while(curr_x != grid_end_x || curr_y != grid_end_y) {
+        while (true) {
+            cells.push_back(std::make_pair(curr_x, curr_y)); 
+            if (curr_x == grid_end_x && curr_y == grid_end_y) break;
             
-            cells.push_back(std::make_pair(curr_x, curr_y)); // Add current cell to vec for future processing (mark free/blocked)
-
             int double_err = 2 * err;
             if (double_err >= -dy) {
                 err -= dy;
                 curr_x += sx;
             }
-            if(double_err <= dx) {
+            if (double_err <= dx) {
                 err += dx;
                 curr_y += sy;
             }

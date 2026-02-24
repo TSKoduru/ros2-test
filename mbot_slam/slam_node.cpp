@@ -125,10 +125,10 @@ private:
             const auto est_pose = particle_filter_->update(odom_msg, *scan, dist_grid_);
 
             // Calculate the estimated pose at the end of the scan for interpolation
-            // const auto est_pose_end = calculateScanEndPose(est_pose, odom_msg, scan);
+            const auto est_pose_end = calculateScanEndPose(est_pose, odom_msg, scan);
 
             // Interpolate the scan over the robot motion
-            MovingLaserScan interpolated_scan(*scan, prev_est_pose, est_pose);
+            MovingLaserScan interpolated_scan(*scan, prev_est_pose, est_pose_end);
             prev_est_pose = est_pose;
             updateGridWithScan(interpolated_scan);
 
@@ -215,7 +215,6 @@ private:
                 grid_.markCellOccupied(ray_cells.back().first, ray_cells.back().second);
             }
         }
-
         // Update distance grid ONCE after all rays are processed
         dist_grid_.computeDistFromMap(buildMapMessage());
     }
