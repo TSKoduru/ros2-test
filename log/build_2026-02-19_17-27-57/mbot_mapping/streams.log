@@ -1,0 +1,6 @@
+[0.022s] Invoking command in '/home/mbot/mbot_ros_labs/src/build/mbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mbot/mbot_ros_labs/src/build/mbot_mapping -- -j4 -l4
+[0.039s] [0mCMake Error: The current CMakeCache.txt directory /home/mbot/mbot_ros_labs/src/build/mbot_mapping/CMakeCache.txt is different than the directory /home/mbot/mbot_labs_ws/src/build/mbot_mapping where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.065s] [0mCMake Error: The source directory "/home/mbot/mbot_labs_ws/src/mbot_mapping" does not exist.
+[0.065s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.067s] gmake: *** [Makefile:335: cmake_check_build_system] Error 1
+[0.071s] Invoked command in '/home/mbot/mbot_ros_labs/src/build/mbot_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mbot/mbot_ros_labs/src/build/mbot_mapping -- -j4 -l4

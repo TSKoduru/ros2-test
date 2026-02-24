@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fd487f68b72939250808.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mbot_nav",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exploration_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exploration_node-4b0b18b8b343bc075f70.json",
+					"name" : "exploration_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mbot_nav_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mbot_nav_uninstall-c56bd023245904a5c8d3.json",
+					"name" : "mbot_nav_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigation_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigation_node-da806f3062e28a30f211.json",
+					"name" : "navigation_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_distance_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_distance_grid-634516612217d9614fd1.json",
+					"name" : "obstacle_distance_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-70e30a1d36efb2a60f25.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mbot/mbot_ros_labs/src/build/mbot_nav",
+		"source" : "/home/mbot/mbot_ros_labs/src/mbot_nav"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

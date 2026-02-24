@@ -1,0 +1,737 @@
+[0.000000] (-) TimerEvent: {}
+[0.000645] (mbot_localization) JobQueued: {'identifier': 'mbot_localization', 'dependencies': OrderedDict()}
+[0.000830] (mbot_mapping) JobQueued: {'identifier': 'mbot_mapping', 'dependencies': OrderedDict()}
+[0.000856] (mbot_nav) JobQueued: {'identifier': 'mbot_nav', 'dependencies': OrderedDict()}
+[0.000877] (mbot_setpoint) JobQueued: {'identifier': 'mbot_setpoint', 'dependencies': OrderedDict()}
+[0.001109] (mbot_slam) JobQueued: {'identifier': 'mbot_slam', 'dependencies': OrderedDict()}
+[0.001132] (mbot_localization) JobStarted: {'identifier': 'mbot_localization'}
+[0.010863] (mbot_mapping) JobStarted: {'identifier': 'mbot_mapping'}
+[0.018249] (mbot_nav) JobStarted: {'identifier': 'mbot_nav'}
+[0.025619] (mbot_setpoint) JobStarted: {'identifier': 'mbot_setpoint'}
+[0.034654] (mbot_localization) JobProgress: {'identifier': 'mbot_localization', 'progress': 'cmake'}
+[0.035622] (mbot_localization) JobProgress: {'identifier': 'mbot_localization', 'progress': 'build'}
+[0.036557] (mbot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mbot/mbot_ros_labs/src/build/mbot_localization', '--', '-j4', '-l4'], 'cwd': '/home/mbot/mbot_ros_labs/src/build/mbot_localization', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbot', 'SSH_CLIENT': '35.3.26.96 51770 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mbot/mbot_ws/install/mbot_interfaces/lib:/home/mbot/mbot_ws/install/camera_ros/lib:/home/mbot/microros_ws/install/micro_ros_agent/lib:/home/mbot/microros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/helpers/browser.sh', 'HOME': '/home/mbot', 'OLDPWD': '/home/mbot/mbot_ros_labs', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-125eebae-41e6-4041-9b0b-c63bf649e025.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PICO_TOOLCHAIN_PATH': '/usr/bin/', 'COLCON_PREFIX_PATH': '/home/mbot/mbot_ws/install:/home/mbot/microros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-72b66634ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbot/mbot_ros_labs/src/build/mbot_localization', 'LC_ALL': 'en_US.UTF-8', 'PICO_SDK_PATH': '/home/mbot/pico-sdk', 'SSH_CONNECTION': '35.3.26.96 51770 35.3.78.102 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbot/mbot_ws/build/mbot_vision:/home/mbot/mbot_ws/install/mbot_vision/lib/python3.12/site-packages:/home/mbot/mbot_ws/build/mbot_bringup:/home/mbot/mbot_ws/install/mbot_bringup/lib/python3.12/site-packages:/home/mbot/mbot_ws/install/mbot_interfaces/lib/python3.12/site-packages:/home/mbot/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy'}), 'shell': False}
+[0.040893] (mbot_mapping) JobProgress: {'identifier': 'mbot_mapping', 'progress': 'cmake'}
+[0.041784] (mbot_mapping) JobProgress: {'identifier': 'mbot_mapping', 'progress': 'build'}
+[0.043050] (mbot_mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mbot/mbot_ros_labs/src/build/mbot_mapping', '--', '-j4', '-l4'], 'cwd': '/home/mbot/mbot_ros_labs/src/build/mbot_mapping', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbot', 'SSH_CLIENT': '35.3.26.96 51770 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mbot/mbot_ws/install/mbot_interfaces/lib:/home/mbot/mbot_ws/install/camera_ros/lib:/home/mbot/microros_ws/install/micro_ros_agent/lib:/home/mbot/microros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/helpers/browser.sh', 'HOME': '/home/mbot', 'OLDPWD': '/home/mbot/mbot_ros_labs', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-125eebae-41e6-4041-9b0b-c63bf649e025.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PICO_TOOLCHAIN_PATH': '/usr/bin/', 'COLCON_PREFIX_PATH': '/home/mbot/mbot_ws/install:/home/mbot/microros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-72b66634ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbot/mbot_ros_labs/src/build/mbot_mapping', 'LC_ALL': 'en_US.UTF-8', 'PICO_SDK_PATH': '/home/mbot/pico-sdk', 'SSH_CONNECTION': '35.3.26.96 51770 35.3.78.102 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbot/mbot_ws/build/mbot_vision:/home/mbot/mbot_ws/install/mbot_vision/lib/python3.12/site-packages:/home/mbot/mbot_ws/build/mbot_bringup:/home/mbot/mbot_ws/install/mbot_bringup/lib/python3.12/site-packages:/home/mbot/mbot_ws/install/mbot_interfaces/lib/python3.12/site-packages:/home/mbot/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy'}), 'shell': False}
+[0.045772] (mbot_nav) JobProgress: {'identifier': 'mbot_nav', 'progress': 'cmake'}
+[0.046226] (mbot_nav) JobProgress: {'identifier': 'mbot_nav', 'progress': 'build'}
+[0.047716] (mbot_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mbot/mbot_ros_labs/src/build/mbot_nav', '--', '-j4', '-l4'], 'cwd': '/home/mbot/mbot_ros_labs/src/build/mbot_nav', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbot', 'SSH_CLIENT': '35.3.26.96 51770 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mbot/mbot_ws/install/mbot_interfaces/lib:/home/mbot/mbot_ws/install/camera_ros/lib:/home/mbot/microros_ws/install/micro_ros_agent/lib:/home/mbot/microros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/helpers/browser.sh', 'HOME': '/home/mbot', 'OLDPWD': '/home/mbot/mbot_ros_labs', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-125eebae-41e6-4041-9b0b-c63bf649e025.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PICO_TOOLCHAIN_PATH': '/usr/bin/', 'COLCON_PREFIX_PATH': '/home/mbot/mbot_ws/install:/home/mbot/microros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-72b66634ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbot/mbot_ros_labs/src/build/mbot_nav', 'LC_ALL': 'en_US.UTF-8', 'PICO_SDK_PATH': '/home/mbot/pico-sdk', 'SSH_CONNECTION': '35.3.26.96 51770 35.3.78.102 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbot/mbot_ws/build/mbot_vision:/home/mbot/mbot_ws/install/mbot_vision/lib/python3.12/site-packages:/home/mbot/mbot_ws/build/mbot_bringup:/home/mbot/mbot_ws/install/mbot_bringup/lib/python3.12/site-packages:/home/mbot/mbot_ws/install/mbot_interfaces/lib/python3.12/site-packages:/home/mbot/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy'}), 'shell': False}
+[0.057872] (mbot_setpoint) JobProgress: {'identifier': 'mbot_setpoint', 'progress': 'cmake'}
+[0.058095] (mbot_setpoint) JobProgress: {'identifier': 'mbot_setpoint', 'progress': 'build'}
+[0.058276] (mbot_setpoint) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mbot/mbot_ros_labs/src/build/mbot_setpoint', '--', '-j4', '-l4'], 'cwd': '/home/mbot/mbot_ros_labs/src/build/mbot_setpoint', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mbot', 'SSH_CLIENT': '35.3.26.96 51770 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mbot/mbot_ws/install/mbot_interfaces/lib:/home/mbot/mbot_ws/install/camera_ros/lib:/home/mbot/microros_ws/install/micro_ros_agent/lib:/home/mbot/microros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/helpers/browser.sh', 'HOME': '/home/mbot', 'OLDPWD': '/home/mbot/mbot_ros_labs', 'TERM_PROGRAM_VERSION': '1.109.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-125eebae-41e6-4041-9b0b-c63bf649e025.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PICO_TOOLCHAIN_PATH': '/usr/bin/', 'COLCON_PREFIX_PATH': '/home/mbot/mbot_ws/install:/home/mbot/microros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mbot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mbot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mbot/.vscode-server/cli/servers/Stable-b6a47e94e326b5c209d118cf0f994d6065585705/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-72b66634ae.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mbot/mbot_ros_labs/src/build/mbot_setpoint', 'LC_ALL': 'en_US.UTF-8', 'PICO_SDK_PATH': '/home/mbot/pico-sdk', 'SSH_CONNECTION': '35.3.26.96 51770 35.3.78.102 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mbot/mbot_ws/build/mbot_vision:/home/mbot/mbot_ws/install/mbot_vision/lib/python3.12/site-packages:/home/mbot/mbot_ws/build/mbot_bringup:/home/mbot/mbot_ws/install/mbot_bringup/lib/python3.12/site-packages:/home/mbot/mbot_ws/install/mbot_interfaces/lib/python3.12/site-packages:/home/mbot/microros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/mbot/mbot_ws/install/sllidar_ros2:/home/mbot/mbot_ws/install/mbot_navigation:/home/mbot/mbot_ws/install/mbot_interfaces:/home/mbot/mbot_ws/install/mbot_description:/home/mbot/mbot_ws/install/camera_ros:/home/mbot/microros_ws/install/micro_ros_setup:/home/mbot/microros_ws/install/micro_ros_agent:/home/mbot/microros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy'}), 'shell': False}
+[0.066117] (mbot_mapping) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/mbot/mbot_ros_labs/src/build/mbot_mapping/CMakeCache.txt is different than the directory /home/mbot/mbot_labs_ws/src/build/mbot_mapping where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[0.096503] (mbot_mapping) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/mbot/mbot_labs_ws/src/mbot_mapping" does not exist.\n'}
+[0.096864] (mbot_mapping) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.097196] (mbot_mapping) StderrLine: {'line': b'gmake: *** [Makefile:335: cmake_check_build_system] Error 1\n'}
+[0.100404] (-) TimerEvent: {}
+[0.103632] (mbot_mapping) CommandEnded: {'returncode': 2}
+[0.123432] (mbot_nav) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.130727] (mbot_setpoint) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.135309] (mbot_mapping) JobEnded: {'identifier': 'mbot_mapping', 'rc': 2}
+[0.193182] (mbot_localization) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/particle_filter.cpp.o\x1b[0m\n'}
+[0.201936] (-) TimerEvent: {}
+[0.208564] (mbot_localization) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/action_model.cpp.o\x1b[0m\n'}
+[0.217238] (mbot_localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/sensor_model.cpp.o\x1b[0m\n'}
+[0.219945] (mbot_localization) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o\x1b[0m\n'}
+[0.302044] (-) TimerEvent: {}
+[0.404051] (-) TimerEvent: {}
+[0.505039] (-) TimerEvent: {}
+[0.607565] (-) TimerEvent: {}
+[0.708225] (-) TimerEvent: {}
+[0.808703] (-) TimerEvent: {}
+[0.818230] (mbot_setpoint) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.867275] (mbot_nav) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.883629] (mbot_setpoint) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.903947] (mbot_setpoint) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.908928] (-) TimerEvent: {}
+[0.916593] (mbot_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.927424] (mbot_setpoint) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.933648] (mbot_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.955243] (mbot_setpoint) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.956122] (mbot_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.009063] (-) TimerEvent: {}
+[1.018276] (mbot_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.075488] (mbot_setpoint) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.078528] (mbot_setpoint) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.110349] (-) TimerEvent: {}
+[1.185398] (mbot_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.188392] (mbot_nav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.210474] (-) TimerEvent: {}
+[1.215904] (mbot_setpoint) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.313029] (-) TimerEvent: {}
+[1.359957] (mbot_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.372363] (mbot_setpoint) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.415749] (-) TimerEvent: {}
+[1.501482] (mbot_setpoint) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[1.518411] (-) TimerEvent: {}
+[1.618909] (-) TimerEvent: {}
+[1.648718] (mbot_nav) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.719721] (mbot_setpoint) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.722311] (-) TimerEvent: {}
+[1.823404] (-) TimerEvent: {}
+[1.835660] (mbot_setpoint) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.855123] (mbot_setpoint) StdoutLine: {'line': b'-- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)\n'}
+[1.896930] (mbot_nav) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.925924] (-) TimerEvent: {}
+[2.026502] (-) TimerEvent: {}
+[2.087165] (mbot_setpoint) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.102060] (mbot_setpoint) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.107034] (mbot_setpoint) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.126648] (-) TimerEvent: {}
+[2.227400] (-) TimerEvent: {}
+[2.237451] (mbot_setpoint) StdoutLine: {'line': b'-- Found mbot_interfaces: 0.0.0 (/home/mbot/mbot_ws/install/mbot_interfaces/share/mbot_interfaces/cmake)\n'}
+[2.327520] (-) TimerEvent: {}
+[2.356212] (mbot_nav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.394393] (mbot_nav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.399301] (mbot_nav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.409954] (mbot_nav) StdoutLine: {'line': b'-- Found mbot_interfaces: 0.0.0 (/home/mbot/mbot_ws/install/mbot_interfaces/share/mbot_interfaces/cmake)\n'}
+[2.433377] (-) TimerEvent: {}
+[2.533880] (-) TimerEvent: {}
+[2.565618] (mbot_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.636414] (-) TimerEvent: {}
+[2.642467] (mbot_localization) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/localization_node.dir/src/obstacle_distance_grid.cpp.o\x1b[0m\n'}
+[2.649775] (mbot_setpoint) StdoutLine: {'line': b'-- Configuring done (2.5s)\n'}
+[2.736545] (-) TimerEvent: {}
+[2.790115] (mbot_setpoint) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.838377] (mbot_setpoint) StdoutLine: {'line': b'-- Build files have been written to: /home/mbot/mbot_ros_labs/src/build/mbot_setpoint\n'}
+[2.838798] (-) TimerEvent: {}
+[2.939160] (-) TimerEvent: {}
+[3.029622] (mbot_setpoint) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/square_publisher.dir/src/square_publisher.cpp.o\x1b[0m\n'}
+[3.042390] (-) TimerEvent: {}
+[3.055453] (mbot_setpoint) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/maze_publisher.dir/src/maze_publisher.cpp.o\x1b[0m\n'}
+[3.059119] (mbot_setpoint) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/motion_controller_diff.dir/src/motion_controller_diff.cpp.o\x1b[0m\n'}
+[3.072869] (mbot_setpoint) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o\x1b[0m\n'}
+[3.143800] (-) TimerEvent: {}
+[3.244267] (-) TimerEvent: {}
+[3.354422] (-) TimerEvent: {}
+[3.406080] (mbot_nav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.410779] (mbot_nav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mbot/mbot_ros_labs/src/mbot_nav/include\n'}
+[3.411143] (mbot_nav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.415086] (mbot_nav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.420366] (mbot_nav) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.420705] (mbot_nav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.420854] (mbot_nav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.425378] (mbot_nav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.425738] (mbot_nav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.425911] (mbot_nav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.426035] (mbot_nav) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.460379] (-) TimerEvent: {}
+[3.548929] (mbot_nav) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.560606] (-) TimerEvent: {}
+[3.603207] (mbot_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/mbot/mbot_ros_labs/src/build/mbot_nav\n'}
+[3.662384] (-) TimerEvent: {}
+[3.766385] (-) TimerEvent: {}
+[3.843632] (mbot_nav) StdoutLine: {'line': b'[ 22%] Built target obstacle_distance_grid\n'}
+[3.868408] (-) TimerEvent: {}
+[3.959072] (mbot_nav) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/navigation_node.dir/src/astar.cpp.o\x1b[0m\n'}
+[3.968556] (-) TimerEvent: {}
+[4.009624] (mbot_nav) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o\x1b[0m\n'}
+[4.071537] (mbot_nav) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o\x1b[0m\n'}
+[4.071988] (-) TimerEvent: {}
+[4.135426] (mbot_nav) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/exploration_node.dir/src/astar.cpp.o\x1b[0m\n'}
+[4.173421] (-) TimerEvent: {}
+[4.273927] (-) TimerEvent: {}
+[4.378593] (-) TimerEvent: {}
+[4.482385] (-) TimerEvent: {}
+[4.582836] (-) TimerEvent: {}
+[4.687393] (-) TimerEvent: {}
+[4.793397] (-) TimerEvent: {}
+[4.893835] (-) TimerEvent: {}
+[4.994313] (-) TimerEvent: {}
+[5.097406] (-) TimerEvent: {}
+[5.199035] (-) TimerEvent: {}
+[5.300397] (-) TimerEvent: {}
+[5.402085] (-) TimerEvent: {}
+[5.504853] (-) TimerEvent: {}
+[5.609112] (-) TimerEvent: {}
+[5.709680] (-) TimerEvent: {}
+[5.813408] (-) TimerEvent: {}
+[5.913970] (-) TimerEvent: {}
+[6.014506] (-) TimerEvent: {}
+[6.115076] (-) TimerEvent: {}
+[6.218092] (-) TimerEvent: {}
+[6.321017] (-) TimerEvent: {}
+[6.426400] (-) TimerEvent: {}
+[6.527079] (-) TimerEvent: {}
+[6.627695] (-) TimerEvent: {}
+[6.728675] (-) TimerEvent: {}
+[6.831648] (-) TimerEvent: {}
+[6.932616] (-) TimerEvent: {}
+[7.034551] (-) TimerEvent: {}
+[7.136379] (-) TimerEvent: {}
+[7.238644] (-) TimerEvent: {}
+[7.341387] (-) TimerEvent: {}
+[7.441907] (-) TimerEvent: {}
+[7.542642] (-) TimerEvent: {}
+[7.644358] (-) TimerEvent: {}
+[7.746419] (-) TimerEvent: {}
+[7.846952] (-) TimerEvent: {}
+[7.958396] (-) TimerEvent: {}
+[8.058920] (-) TimerEvent: {}
+[8.163401] (-) TimerEvent: {}
+[8.268371] (-) TimerEvent: {}
+[8.374171] (-) TimerEvent: {}
+[8.476411] (-) TimerEvent: {}
+[8.577373] (-) TimerEvent: {}
+[8.682417] (-) TimerEvent: {}
+[8.784350] (-) TimerEvent: {}
+[8.889194] (-) TimerEvent: {}
+[8.989737] (-) TimerEvent: {}
+[9.091361] (-) TimerEvent: {}
+[9.194806] (-) TimerEvent: {}
+[9.296593] (-) TimerEvent: {}
+[9.400433] (-) TimerEvent: {}
+[9.503632] (-) TimerEvent: {}
+[9.604154] (-) TimerEvent: {}
+[9.704747] (-) TimerEvent: {}
+[9.806535] (-) TimerEvent: {}
+[9.907083] (-) TimerEvent: {}
+[10.009399] (-) TimerEvent: {}
+[10.109904] (-) TimerEvent: {}
+[10.211573] (-) TimerEvent: {}
+[10.316392] (-) TimerEvent: {}
+[10.416886] (-) TimerEvent: {}
+[10.517672] (-) TimerEvent: {}
+[10.619396] (-) TimerEvent: {}
+[10.720752] (-) TimerEvent: {}
+[10.824358] (-) TimerEvent: {}
+[10.926398] (-) TimerEvent: {}
+[11.026916] (-) TimerEvent: {}
+[11.127378] (-) TimerEvent: {}
+[11.233274] (-) TimerEvent: {}
+[11.333778] (-) TimerEvent: {}
+[11.434411] (-) TimerEvent: {}
+[11.537264] (-) TimerEvent: {}
+[11.638216] (-) TimerEvent: {}
+[11.738910] (-) TimerEvent: {}
+[11.841441] (-) TimerEvent: {}
+[11.944319] (-) TimerEvent: {}
+[12.044785] (-) TimerEvent: {}
+[12.145898] (-) TimerEvent: {}
+[12.249604] (-) TimerEvent: {}
+[12.350118] (-) TimerEvent: {}
+[12.451696] (-) TimerEvent: {}
+[12.554465] (-) TimerEvent: {}
+[12.654955] (-) TimerEvent: {}
+[12.756706] (-) TimerEvent: {}
+[12.857869] (-) TimerEvent: {}
+[12.962390] (-) TimerEvent: {}
+[13.062861] (-) TimerEvent: {}
+[13.163478] (-) TimerEvent: {}
+[13.265844] (-) TimerEvent: {}
+[13.366375] (-) TimerEvent: {}
+[13.469453] (-) TimerEvent: {}
+[13.569925] (-) TimerEvent: {}
+[13.673389] (-) TimerEvent: {}
+[13.776353] (-) TimerEvent: {}
+[13.878387] (-) TimerEvent: {}
+[13.980376] (-) TimerEvent: {}
+[14.080845] (-) TimerEvent: {}
+[14.181579] (-) TimerEvent: {}
+[14.282502] (-) TimerEvent: {}
+[14.385580] (-) TimerEvent: {}
+[14.488995] (-) TimerEvent: {}
+[14.591476] (-) TimerEvent: {}
+[14.696630] (-) TimerEvent: {}
+[14.799406] (-) TimerEvent: {}
+[14.899855] (-) TimerEvent: {}
+[15.003400] (-) TimerEvent: {}
+[15.103864] (-) TimerEvent: {}
+[15.204797] (-) TimerEvent: {}
+[15.305570] (-) TimerEvent: {}
+[15.408557] (-) TimerEvent: {}
+[15.509023] (-) TimerEvent: {}
+[15.612570] (-) TimerEvent: {}
+[15.713358] (-) TimerEvent: {}
+[15.817767] (-) TimerEvent: {}
+[15.919433] (-) TimerEvent: {}
+[16.020273] (-) TimerEvent: {}
+[16.121298] (-) TimerEvent: {}
+[16.227688] (-) TimerEvent: {}
+[16.328152] (-) TimerEvent: {}
+[16.430451] (-) TimerEvent: {}
+[16.530914] (-) TimerEvent: {}
+[16.631387] (-) TimerEvent: {}
+[16.732373] (-) TimerEvent: {}
+[16.832833] (-) TimerEvent: {}
+[16.935375] (-) TimerEvent: {}
+[17.036078] (-) TimerEvent: {}
+[17.136779] (-) TimerEvent: {}
+[17.237664] (-) TimerEvent: {}
+[17.341392] (-) TimerEvent: {}
+[17.441866] (-) TimerEvent: {}
+[17.542460] (-) TimerEvent: {}
+[17.610522] (mbot_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kmbot_interfaces::msg::Pose2DArray mbot_nav::AStarPlanner::\x1b[01;32m\x1b[KsmoothPath\x1b[m\x1b[K(const ObstacleDistanceGrid&, const mbot_interfaces::msg::Pose2DArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.610933] (mbot_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:165:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_idx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.611106] (mbot_nav) StderrLine: {'line': b'  165 |     size_t \x1b[01;35m\x1b[Klast_idx\x1b[m\x1b[K = 0;\n'}
+[17.611253] (mbot_nav) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[17.646399] (-) TimerEvent: {}
+[17.746887] (-) TimerEvent: {}
+[17.847848] (-) TimerEvent: {}
+[17.953207] (-) TimerEvent: {}
+[18.055411] (-) TimerEvent: {}
+[18.158475] (-) TimerEvent: {}
+[18.259126] (-) TimerEvent: {}
+[18.363838] (-) TimerEvent: {}
+[18.464609] (-) TimerEvent: {}
+[18.565512] (-) TimerEvent: {}
+[18.667531] (-) TimerEvent: {}
+[18.771748] (-) TimerEvent: {}
+[18.872204] (-) TimerEvent: {}
+[18.974795] (-) TimerEvent: {}
+[19.075734] (-) TimerEvent: {}
+[19.178650] (-) TimerEvent: {}
+[19.279115] (-) TimerEvent: {}
+[19.380978] (-) TimerEvent: {}
+[19.485786] (-) TimerEvent: {}
+[19.587398] (-) TimerEvent: {}
+[19.688358] (-) TimerEvent: {}
+[19.787393] (mbot_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kmbot_interfaces::msg::Pose2DArray mbot_nav::AStarPlanner::\x1b[01;32m\x1b[KsmoothPath\x1b[m\x1b[K(const ObstacleDistanceGrid&, const mbot_interfaces::msg::Pose2DArray&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.787794] (mbot_nav) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:165:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_idx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.787983] (mbot_nav) StderrLine: {'line': b'  165 |     size_t \x1b[01;35m\x1b[Klast_idx\x1b[m\x1b[K = 0;\n'}
+[19.788121] (mbot_nav) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[19.789496] (-) TimerEvent: {}
+[19.893554] (-) TimerEvent: {}
+[19.994649] (-) TimerEvent: {}
+[20.095765] (-) TimerEvent: {}
+[20.197056] (-) TimerEvent: {}
+[20.301416] (-) TimerEvent: {}
+[20.406384] (-) TimerEvent: {}
+[20.506852] (-) TimerEvent: {}
+[20.608551] (-) TimerEvent: {}
+[20.712524] (-) TimerEvent: {}
+[20.813577] (-) TimerEvent: {}
+[20.914219] (-) TimerEvent: {}
+[21.015329] (-) TimerEvent: {}
+[21.119700] (-) TimerEvent: {}
+[21.221644] (-) TimerEvent: {}
+[21.324392] (-) TimerEvent: {}
+[21.428614] (-) TimerEvent: {}
+[21.529103] (-) TimerEvent: {}
+[21.633386] (-) TimerEvent: {}
+[21.735886] (-) TimerEvent: {}
+[21.841396] (-) TimerEvent: {}
+[21.944390] (-) TimerEvent: {}
+[22.044873] (-) TimerEvent: {}
+[22.147398] (-) TimerEvent: {}
+[22.247913] (-) TimerEvent: {}
+[22.349446] (-) TimerEvent: {}
+[22.452394] (-) TimerEvent: {}
+[22.555413] (-) TimerEvent: {}
+[22.655922] (-) TimerEvent: {}
+[22.756463] (-) TimerEvent: {}
+[22.856995] (-) TimerEvent: {}
+[22.959381] (-) TimerEvent: {}
+[23.063404] (-) TimerEvent: {}
+[23.163911] (-) TimerEvent: {}
+[23.264972] (-) TimerEvent: {}
+[23.365995] (-) TimerEvent: {}
+[23.467398] (-) TimerEvent: {}
+[23.572744] (-) TimerEvent: {}
+[23.673684] (-) TimerEvent: {}
+[23.775389] (-) TimerEvent: {}
+[23.876859] (-) TimerEvent: {}
+[23.982389] (-) TimerEvent: {}
+[24.082999] (-) TimerEvent: {}
+[24.183510] (-) TimerEvent: {}
+[24.284277] (-) TimerEvent: {}
+[24.387381] (-) TimerEvent: {}
+[24.488712] (-) TimerEvent: {}
+[24.592342] (-) TimerEvent: {}
+[24.695402] (-) TimerEvent: {}
+[24.795868] (-) TimerEvent: {}
+[24.899398] (-) TimerEvent: {}
+[25.000193] (-) TimerEvent: {}
+[25.105178] (-) TimerEvent: {}
+[25.205677] (-) TimerEvent: {}
+[25.309378] (-) TimerEvent: {}
+[25.412405] (-) TimerEvent: {}
+[25.512923] (-) TimerEvent: {}
+[25.614367] (-) TimerEvent: {}
+[25.717386] (-) TimerEvent: {}
+[25.817852] (-) TimerEvent: {}
+[25.918368] (-) TimerEvent: {}
+[26.021432] (-) TimerEvent: {}
+[26.124450] (-) TimerEvent: {}
+[26.199406] (mbot_setpoint) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable maze_publisher\x1b[0m\n'}
+[26.224596] (-) TimerEvent: {}
+[26.325920] (-) TimerEvent: {}
+[26.426866] (-) TimerEvent: {}
+[26.530370] (-) TimerEvent: {}
+[26.632066] (-) TimerEvent: {}
+[26.736973] (-) TimerEvent: {}
+[26.837481] (-) TimerEvent: {}
+[26.939809] (-) TimerEvent: {}
+[27.042411] (-) TimerEvent: {}
+[27.145382] (-) TimerEvent: {}
+[27.245861] (-) TimerEvent: {}
+[27.346394] (-) TimerEvent: {}
+[27.446870] (-) TimerEvent: {}
+[27.548558] (-) TimerEvent: {}
+[27.574588] (mbot_setpoint) StdoutLine: {'line': b'[ 62%] Built target maze_publisher\n'}
+[27.650887] (-) TimerEvent: {}
+[27.751343] (-) TimerEvent: {}
+[27.853388] (-) TimerEvent: {}
+[27.956390] (-) TimerEvent: {}
+[28.063389] (-) TimerEvent: {}
+[28.163850] (-) TimerEvent: {}
+[28.264325] (-) TimerEvent: {}
+[28.369390] (-) TimerEvent: {}
+[28.469834] (-) TimerEvent: {}
+[28.570267] (-) TimerEvent: {}
+[28.670694] (-) TimerEvent: {}
+[28.773075] (-) TimerEvent: {}
+[28.875600] (-) TimerEvent: {}
+[28.978401] (-) TimerEvent: {}
+[29.078831] (-) TimerEvent: {}
+[29.179277] (-) TimerEvent: {}
+[29.279851] (-) TimerEvent: {}
+[29.382154] (-) TimerEvent: {}
+[29.483087] (-) TimerEvent: {}
+[29.585952] (-) TimerEvent: {}
+[29.690386] (-) TimerEvent: {}
+[29.790847] (-) TimerEvent: {}
+[29.894392] (-) TimerEvent: {}
+[29.997387] (-) TimerEvent: {}
+[30.097889] (-) TimerEvent: {}
+[30.198382] (-) TimerEvent: {}
+[30.298864] (-) TimerEvent: {}
+[30.399355] (-) TimerEvent: {}
+[30.501872] (-) TimerEvent: {}
+[30.602372] (-) TimerEvent: {}
+[30.704949] (-) TimerEvent: {}
+[30.807984] (-) TimerEvent: {}
+[30.913719] (-) TimerEvent: {}
+[31.017000] (-) TimerEvent: {}
+[31.119385] (-) TimerEvent: {}
+[31.220003] (-) TimerEvent: {}
+[31.323223] (-) TimerEvent: {}
+[31.423713] (-) TimerEvent: {}
+[31.524400] (-) TimerEvent: {}
+[31.628395] (-) TimerEvent: {}
+[31.728907] (-) TimerEvent: {}
+[31.829488] (-) TimerEvent: {}
+[31.930232] (-) TimerEvent: {}
+[32.031109] (-) TimerEvent: {}
+[32.135642] (-) TimerEvent: {}
+[32.236563] (-) TimerEvent: {}
+[32.342141] (-) TimerEvent: {}
+[32.442684] (-) TimerEvent: {}
+[32.543921] (-) TimerEvent: {}
+[32.645742] (-) TimerEvent: {}
+[32.747325] (-) TimerEvent: {}
+[32.849084] (-) TimerEvent: {}
+[32.951265] (-) TimerEvent: {}
+[33.051785] (-) TimerEvent: {}
+[33.153188] (-) TimerEvent: {}
+[33.255108] (-) TimerEvent: {}
+[33.357457] (-) TimerEvent: {}
+[33.458150] (-) TimerEvent: {}
+[33.559124] (-) TimerEvent: {}
+[33.663385] (-) TimerEvent: {}
+[33.715305] (mbot_setpoint) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable square_publisher\x1b[0m\n'}
+[33.765418] (-) TimerEvent: {}
+[33.870415] (-) TimerEvent: {}
+[33.971051] (-) TimerEvent: {}
+[34.072516] (-) TimerEvent: {}
+[34.175498] (-) TimerEvent: {}
+[34.276118] (-) TimerEvent: {}
+[34.378619] (-) TimerEvent: {}
+[34.479084] (-) TimerEvent: {}
+[34.581540] (-) TimerEvent: {}
+[34.600498] (mbot_setpoint) StdoutLine: {'line': b'[ 75%] Built target square_publisher\n'}
+[34.683404] (-) TimerEvent: {}
+[34.784013] (-) TimerEvent: {}
+[34.884506] (-) TimerEvent: {}
+[34.985007] (-) TimerEvent: {}
+[35.086590] (-) TimerEvent: {}
+[35.187097] (-) TimerEvent: {}
+[35.292212] (-) TimerEvent: {}
+[35.392694] (-) TimerEvent: {}
+[35.493205] (-) TimerEvent: {}
+[35.593681] (-) TimerEvent: {}
+[35.696328] (-) TimerEvent: {}
+[35.796822] (-) TimerEvent: {}
+[35.900392] (-) TimerEvent: {}
+[36.000927] (-) TimerEvent: {}
+[36.101669] (-) TimerEvent: {}
+[36.203664] (-) TimerEvent: {}
+[36.307651] (-) TimerEvent: {}
+[36.408538] (-) TimerEvent: {}
+[36.509576] (-) TimerEvent: {}
+[36.611531] (-) TimerEvent: {}
+[36.714361] (-) TimerEvent: {}
+[36.814852] (-) TimerEvent: {}
+[36.916865] (-) TimerEvent: {}
+[37.017367] (-) TimerEvent: {}
+[37.119623] (-) TimerEvent: {}
+[37.222634] (-) TimerEvent: {}
+[37.324172] (-) TimerEvent: {}
+[37.425748] (-) TimerEvent: {}
+[37.531839] (-) TimerEvent: {}
+[37.632315] (-) TimerEvent: {}
+[37.732802] (-) TimerEvent: {}
+[37.833521] (-) TimerEvent: {}
+[37.935524] (-) TimerEvent: {}
+[38.036577] (-) TimerEvent: {}
+[38.138800] (-) TimerEvent: {}
+[38.239460] (-) TimerEvent: {}
+[38.341206] (-) TimerEvent: {}
+[38.441758] (-) TimerEvent: {}
+[38.543413] (-) TimerEvent: {}
+[38.645440] (-) TimerEvent: {}
+[38.747201] (-) TimerEvent: {}
+[38.847696] (-) TimerEvent: {}
+[38.949387] (-) TimerEvent: {}
+[39.052171] (-) TimerEvent: {}
+[39.152680] (-) TimerEvent: {}
+[39.253279] (-) TimerEvent: {}
+[39.356422] (-) TimerEvent: {}
+[39.456934] (-) TimerEvent: {}
+[39.557779] (-) TimerEvent: {}
+[39.659526] (-) TimerEvent: {}
+[39.763396] (-) TimerEvent: {}
+[39.863919] (-) TimerEvent: {}
+[39.964539] (-) TimerEvent: {}
+[40.068406] (-) TimerEvent: {}
+[40.168856] (-) TimerEvent: {}
+[40.269637] (-) TimerEvent: {}
+[40.371653] (-) TimerEvent: {}
+[40.474650] (-) TimerEvent: {}
+[40.575218] (-) TimerEvent: {}
+[40.675730] (-) TimerEvent: {}
+[40.778402] (-) TimerEvent: {}
+[40.879340] (-) TimerEvent: {}
+[40.981737] (-) TimerEvent: {}
+[41.083311] (-) TimerEvent: {}
+[41.186323] (-) TimerEvent: {}
+[41.287340] (-) TimerEvent: {}
+[41.391611] (-) TimerEvent: {}
+[41.496229] (-) TimerEvent: {}
+[41.596760] (-) TimerEvent: {}
+[41.700357] (-) TimerEvent: {}
+[41.801345] (-) TimerEvent: {}
+[41.901844] (-) TimerEvent: {}
+[42.002782] (-) TimerEvent: {}
+[42.105414] (-) TimerEvent: {}
+[42.205941] (-) TimerEvent: {}
+[42.306452] (-) TimerEvent: {}
+[42.407351] (-) TimerEvent: {}
+[42.508446] (-) TimerEvent: {}
+[42.611829] (-) TimerEvent: {}
+[42.712378] (-) TimerEvent: {}
+[42.812865] (-) TimerEvent: {}
+[42.913816] (-) TimerEvent: {}
+[43.017844] (-) TimerEvent: {}
+[43.118575] (-) TimerEvent: {}
+[43.220033] (-) TimerEvent: {}
+[43.322513] (-) TimerEvent: {}
+[43.423071] (-) TimerEvent: {}
+[43.523651] (-) TimerEvent: {}
+[43.625829] (-) TimerEvent: {}
+[43.726379] (-) TimerEvent: {}
+[43.827128] (-) TimerEvent: {}
+[43.931032] (-) TimerEvent: {}
+[44.031713] (-) TimerEvent: {}
+[44.132353] (-) TimerEvent: {}
+[44.233934] (-) TimerEvent: {}
+[44.336684] (-) TimerEvent: {}
+[44.438871] (-) TimerEvent: {}
+[44.539525] (-) TimerEvent: {}
+[44.640070] (-) TimerEvent: {}
+[44.741761] (-) TimerEvent: {}
+[44.842302] (-) TimerEvent: {}
+[44.878949] (mbot_setpoint) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable odom\x1b[0m\n'}
+[44.943408] (-) TimerEvent: {}
+[45.045602] (-) TimerEvent: {}
+[45.146494] (-) TimerEvent: {}
+[45.249906] (-) TimerEvent: {}
+[45.350640] (-) TimerEvent: {}
+[45.452819] (-) TimerEvent: {}
+[45.557409] (-) TimerEvent: {}
+[45.657903] (-) TimerEvent: {}
+[45.758731] (-) TimerEvent: {}
+[45.860792] (-) TimerEvent: {}
+[45.962910] (-) TimerEvent: {}
+[46.064643] (-) TimerEvent: {}
+[46.166452] (-) TimerEvent: {}
+[46.269404] (-) TimerEvent: {}
+[46.372653] (-) TimerEvent: {}
+[46.473141] (-) TimerEvent: {}
+[46.573994] (-) TimerEvent: {}
+[46.677849] (-) TimerEvent: {}
+[46.778516] (-) TimerEvent: {}
+[46.880893] (-) TimerEvent: {}
+[46.981549] (-) TimerEvent: {}
+[47.009514] (mbot_nav) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable exploration_node\x1b[0m\n'}
+[47.083499] (-) TimerEvent: {}
+[47.184533] (-) TimerEvent: {}
+[47.285791] (-) TimerEvent: {}
+[47.386396] (-) TimerEvent: {}
+[47.488549] (-) TimerEvent: {}
+[47.501746] (mbot_setpoint) StdoutLine: {'line': b'[ 87%] Built target odom\n'}
+[47.588666] (-) TimerEvent: {}
+[47.689332] (-) TimerEvent: {}
+[47.789827] (-) TimerEvent: {}
+[47.892857] (-) TimerEvent: {}
+[47.995882] (-) TimerEvent: {}
+[48.098556] (-) TimerEvent: {}
+[48.199613] (-) TimerEvent: {}
+[48.300145] (-) TimerEvent: {}
+[48.402812] (-) TimerEvent: {}
+[48.504445] (-) TimerEvent: {}
+[48.607980] (-) TimerEvent: {}
+[48.710606] (-) TimerEvent: {}
+[48.812624] (-) TimerEvent: {}
+[48.915724] (-) TimerEvent: {}
+[49.016239] (-) TimerEvent: {}
+[49.119395] (-) TimerEvent: {}
+[49.219908] (-) TimerEvent: {}
+[49.322070] (-) TimerEvent: {}
+[49.422833] (-) TimerEvent: {}
+[49.524583] (-) TimerEvent: {}
+[49.604147] (mbot_nav) StdoutLine: {'line': b'[ 88%] Built target exploration_node\n'}
+[49.624708] (-) TimerEvent: {}
+[49.728464] (-) TimerEvent: {}
+[49.829036] (-) TimerEvent: {}
+[49.929635] (-) TimerEvent: {}
+[50.030172] (-) TimerEvent: {}
+[50.130801] (-) TimerEvent: {}
+[50.231408] (-) TimerEvent: {}
+[50.334407] (-) TimerEvent: {}
+[50.434948] (-) TimerEvent: {}
+[50.443362] (mbot_setpoint) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motion_controller_diff\x1b[0m\n'}
+[50.535108] (-) TimerEvent: {}
+[50.635713] (-) TimerEvent: {}
+[50.737643] (-) TimerEvent: {}
+[50.838379] (-) TimerEvent: {}
+[50.941144] (-) TimerEvent: {}
+[51.042472] (-) TimerEvent: {}
+[51.144972] (-) TimerEvent: {}
+[51.246150] (-) TimerEvent: {}
+[51.347241] (-) TimerEvent: {}
+[51.448083] (-) TimerEvent: {}
+[51.550471] (-) TimerEvent: {}
+[51.653192] (-) TimerEvent: {}
+[51.754071] (-) TimerEvent: {}
+[51.854895] (-) TimerEvent: {}
+[51.955943] (-) TimerEvent: {}
+[52.057155] (-) TimerEvent: {}
+[52.157621] (-) TimerEvent: {}
+[52.216165] (mbot_setpoint) StdoutLine: {'line': b'[100%] Built target motion_controller_diff\n'}
+[52.248028] (mbot_setpoint) JobEnded: {'identifier': 'mbot_setpoint', 'rc': 'SIGINT'}
+[52.257738] (-) TimerEvent: {}
+[52.358330] (-) TimerEvent: {}
+[52.458701] (-) TimerEvent: {}
+[52.559112] (-) TimerEvent: {}
+[52.659590] (-) TimerEvent: {}
+[52.759964] (-) TimerEvent: {}
+[52.860347] (-) TimerEvent: {}
+[52.960866] (-) TimerEvent: {}
+[53.238644] (-) TimerEvent: {}
+[53.339319] (-) TimerEvent: {}
+[53.439723] (-) TimerEvent: {}
+[53.540113] (-) TimerEvent: {}
+[53.640513] (-) TimerEvent: {}
+[53.740911] (-) TimerEvent: {}
+[53.841330] (-) TimerEvent: {}
+[53.941726] (-) TimerEvent: {}
+[54.042110] (-) TimerEvent: {}
+[54.142528] (-) TimerEvent: {}
+[54.243159] (-) TimerEvent: {}
+[54.343797] (-) TimerEvent: {}
+[54.444262] (-) TimerEvent: {}
+[54.545050] (-) TimerEvent: {}
+[54.645609] (-) TimerEvent: {}
+[54.746086] (-) TimerEvent: {}
+[54.846611] (-) TimerEvent: {}
+[54.947072] (-) TimerEvent: {}
+[55.048313] (-) TimerEvent: {}
+[55.148735] (-) TimerEvent: {}
+[55.249206] (-) TimerEvent: {}
+[55.257049] (mbot_nav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable navigation_node\x1b[0m\n'}
+[55.349360] (-) TimerEvent: {}
+[55.449938] (-) TimerEvent: {}
+[55.550629] (-) TimerEvent: {}
+[55.651376] (-) TimerEvent: {}
+[55.752535] (-) TimerEvent: {}
+[55.853547] (-) TimerEvent: {}
+[55.954248] (-) TimerEvent: {}
+[56.058447] (-) TimerEvent: {}
+[56.159373] (-) TimerEvent: {}
+[56.260223] (-) TimerEvent: {}
+[56.361198] (-) TimerEvent: {}
+[56.461991] (-) TimerEvent: {}
+[56.563107] (-) TimerEvent: {}
+[56.664194] (-) TimerEvent: {}
+[56.764772] (-) TimerEvent: {}
+[56.865269] (-) TimerEvent: {}
+[56.965812] (-) TimerEvent: {}
+[57.066457] (-) TimerEvent: {}
+[57.166925] (-) TimerEvent: {}
+[57.267412] (-) TimerEvent: {}
+[57.300809] (mbot_nav) StdoutLine: {'line': b'[100%] Built target navigation_node\n'}
+[57.326000] (mbot_nav) JobEnded: {'identifier': 'mbot_nav', 'rc': 'SIGINT'}
+[57.367521] (-) TimerEvent: {}
+[57.467875] (-) TimerEvent: {}
+[57.568237] (-) TimerEvent: {}
+[57.668619] (-) TimerEvent: {}
+[57.769005] (-) TimerEvent: {}
+[57.869373] (-) TimerEvent: {}
+[57.969852] (-) TimerEvent: {}
+[58.070705] (-) TimerEvent: {}
+[58.171129] (-) TimerEvent: {}
+[58.271534] (-) TimerEvent: {}
+[58.371968] (-) TimerEvent: {}
+[58.472397] (-) TimerEvent: {}
+[58.572823] (-) TimerEvent: {}
+[58.673189] (-) TimerEvent: {}
+[58.773581] (-) TimerEvent: {}
+[58.873992] (-) TimerEvent: {}
+[58.974402] (-) TimerEvent: {}
+[59.074829] (-) TimerEvent: {}
+[59.175216] (-) TimerEvent: {}
+[59.275616] (-) TimerEvent: {}
+[59.376055] (-) TimerEvent: {}
+[59.476476] (-) TimerEvent: {}
+[59.576913] (-) TimerEvent: {}
+[59.677337] (-) TimerEvent: {}
+[59.777727] (-) TimerEvent: {}
+[59.878144] (-) TimerEvent: {}
+[59.978571] (-) TimerEvent: {}
+[60.079007] (-) TimerEvent: {}
+[60.179543] (-) TimerEvent: {}
+[60.279950] (-) TimerEvent: {}
+[60.380333] (-) TimerEvent: {}
+[60.480762] (-) TimerEvent: {}
+[60.581278] (-) TimerEvent: {}
+[60.681941] (-) TimerEvent: {}
+[60.782470] (-) TimerEvent: {}
+[60.810386] (mbot_localization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable localization_node\x1b[0m\n'}
+[60.882651] (-) TimerEvent: {}
+[60.983165] (-) TimerEvent: {}
+[61.083652] (-) TimerEvent: {}
+[61.184366] (-) TimerEvent: {}
+[61.285392] (-) TimerEvent: {}
+[61.386388] (-) TimerEvent: {}
+[61.487041] (-) TimerEvent: {}
+[61.588266] (-) TimerEvent: {}
+[61.689336] (-) TimerEvent: {}
+[61.789972] (-) TimerEvent: {}
+[61.890692] (-) TimerEvent: {}
+[61.991588] (-) TimerEvent: {}
+[62.092068] (-) TimerEvent: {}
+[62.192652] (-) TimerEvent: {}
+[62.293697] (-) TimerEvent: {}
+[62.394841] (-) TimerEvent: {}
+[62.495742] (-) TimerEvent: {}
+[62.596147] (-) TimerEvent: {}
+[62.696638] (-) TimerEvent: {}
+[62.797225] (-) TimerEvent: {}
+[62.897561] (-) TimerEvent: {}
+[62.997953] (-) TimerEvent: {}
+[63.013607] (mbot_localization) StdoutLine: {'line': b'[100%] Built target localization_node\n'}
+[63.037889] (mbot_localization) JobEnded: {'identifier': 'mbot_localization', 'rc': 'SIGINT'}
+[63.039387] (mbot_slam) JobSkipped: {'identifier': 'mbot_slam'}
+[63.039463] (-) EventReactorShutdown: {}

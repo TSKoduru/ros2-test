@@ -1,0 +1,33 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mbot_interfaces: 0.0.0 (/home/mbot/mbot_ws/install/mbot_interfaces/share/mbot_interfaces/cmake)
+-- Configuring done (2.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/mbot/mbot_ros_labs/src/build/mbot_setpoint
+[ 12%] [32mBuilding CXX object CMakeFiles/square_publisher.dir/src/square_publisher.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/maze_publisher.dir/src/maze_publisher.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/motion_controller_diff.dir/src/motion_controller_diff.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable maze_publisher[0m
+[ 62%] Built target maze_publisher
+[ 75%] [32m[1mLinking CXX executable square_publisher[0m
+[ 75%] Built target square_publisher
+[ 87%] [32m[1mLinking CXX executable odom[0m
+[ 87%] Built target odom
+[100%] [32m[1mLinking CXX executable motion_controller_diff[0m
+[100%] Built target motion_controller_diff

@@ -1,0 +1,8 @@
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:[m[K In member function ‘[01m[Kmbot_interfaces::msg::Pose2DArray mbot_nav::AStarPlanner::[01;32m[KsmoothPath[m[K(const ObstacleDistanceGrid&, const mbot_interfaces::msg::Pose2DArray&)[m[K’:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:165:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  165 |     size_t [01;35m[Klast_idx[m[K = 0;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:[m[K In member function ‘[01m[Kmbot_interfaces::msg::Pose2DArray mbot_nav::AStarPlanner::[01;32m[KsmoothPath[m[K(const ObstacleDistanceGrid&, const mbot_interfaces::msg::Pose2DArray&)[m[K’:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:165:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  165 |     size_t [01;35m[Klast_idx[m[K = 0;
+      |            [01;35m[K^~~~~~~~[m[K

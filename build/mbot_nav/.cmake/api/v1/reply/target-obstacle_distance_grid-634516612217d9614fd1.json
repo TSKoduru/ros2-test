@@ -1,0 +1,237 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libobstacle_distance_grid.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 146,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 142,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "FASTCDR_DYN_LINK"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/mbot/mbot_ros_labs/src/mbot_nav/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/nav_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rcutils"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/std_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/service_msgs"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/fastcdr"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rmw"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_dynamic_typesupport"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_introspection_c"
+				},
+				{
+					"backtrace" : 5,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "obstacle_distance_grid::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/mbot/mbot_ros_labs/src/install/mbot_nav"
+		}
+	},
+	"name" : "obstacle_distance_grid",
+	"nameOnDisk" : "libobstacle_distance_grid.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/obstacle_distance_grid.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

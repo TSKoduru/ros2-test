@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/mbot/mbot_ros_labs/src/build/mbot_mapping/CMakeCache.txt is different than the directory /home/mbot/mbot_labs_ws/src/build/mbot_mapping where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/mbot/mbot_labs_ws/src/mbot_mapping" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:335: cmake_check_build_system] Error 1

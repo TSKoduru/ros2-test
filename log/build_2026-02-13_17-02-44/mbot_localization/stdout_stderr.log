@@ -1,0 +1,7 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/particle_filter.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/action_model.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/sensor_model.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/localization_node.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/localization_node.dir/src/obstacle_distance_grid.cpp.o[0m
+[100%] [32m[1mLinking CXX executable localization_node[0m
+[100%] Built target localization_node

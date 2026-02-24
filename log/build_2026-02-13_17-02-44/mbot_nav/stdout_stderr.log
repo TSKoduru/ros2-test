@@ -1,0 +1,46 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found mbot_interfaces: 0.0.0 (/home/mbot/mbot_ws/install/mbot_interfaces/share/mbot_interfaces/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/mbot/mbot_ros_labs/src/mbot_nav/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/mbot/mbot_ros_labs/src/build/mbot_nav
+[ 22%] Built target obstacle_distance_grid
+[ 33%] [32mBuilding CXX object CMakeFiles/navigation_node.dir/src/astar.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/astar.cpp.o[0m
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:[m[K In member function ‘[01m[Kmbot_interfaces::msg::Pose2DArray mbot_nav::AStarPlanner::[01;32m[KsmoothPath[m[K(const ObstacleDistanceGrid&, const mbot_interfaces::msg::Pose2DArray&)[m[K’:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:165:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  165 |     size_t [01;35m[Klast_idx[m[K = 0;
+      |            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:[m[K In member function ‘[01m[Kmbot_interfaces::msg::Pose2DArray mbot_nav::AStarPlanner::[01;32m[KsmoothPath[m[K(const ObstacleDistanceGrid&, const mbot_interfaces::msg::Pose2DArray&)[m[K’:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:165:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  165 |     size_t [01;35m[Klast_idx[m[K = 0;
+      |            [01;35m[K^~~~~~~~[m[K
+[ 77%] [32m[1mLinking CXX executable exploration_node[0m
+[ 88%] Built target exploration_node
+[100%] [32m[1mLinking CXX executable navigation_node[0m
+[100%] Built target navigation_node

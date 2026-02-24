@@ -1,0 +1,2 @@
+/usr/bin/ar qc libobstacle_distance_grid.a CMakeFiles/obstacle_distance_grid.dir/src/obstacle_distance_grid.cpp.o
+/usr/bin/ranlib libobstacle_distance_grid.a

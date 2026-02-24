@@ -1,0 +1,47 @@
+In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:1[m[K:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/astar.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+    5 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/navigation_node.dir/build.make:90: CMakeFiles/navigation_node.dir/src/astar.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:1[m[K:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/astar.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+    5 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exploration_node.dir/build.make:90: CMakeFiles/exploration_node.dir/src/astar.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/exploration_node.cpp:1[m[K:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/exploration_node.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+    7 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/exploration_node.dir/build.make:76: CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o] Error 1
+In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/navigation_node.cpp:1[m[K:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/navigation_node.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+    9 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/navigation_node.dir/build.make:76: CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/navigation_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:[m[K In member function ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> > > mbot_nav::FrontierExplorer::[01;32m[KdetectFrontiers[m[K(int, int, const ObstacleDistanceGrid&)[m[K’:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:97:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwidth[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   97 |     int [01;35m[Kwidth[m[K = dist_grid.getWidth();
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:98:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kheight[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   98 |     int [01;35m[Kheight[m[K = dist_grid.getHeight();
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:94:9:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_gx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |     [01;35m[Kint robot_gx[m[K, int robot_gy,
+      |     [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:94:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_gy[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |     int robot_gx, [01;35m[Kint robot_gy[m[K,
+      |                   [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:[m[K In member function ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> > > mbot_nav::FrontierExplorer::[01;32m[KclusterFrontiers[m[K(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> > >&)[m[K’:
+[01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/frontier_explorer.cpp:115:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfrontiers[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  115 |     [01;35m[Kconst std::vector<geometry_msgs::msg::Point> &frontiers[m[K)
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/exploration_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

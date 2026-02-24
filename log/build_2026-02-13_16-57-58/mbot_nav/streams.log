@@ -1,0 +1,37 @@
+[0.017s] Invoking command in '/home/mbot/mbot_ros_labs/src/build/mbot_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mbot/mbot_ros_labs/src/build/mbot_nav -- -j4 -l4
+[0.132s] [ 22%] Built target obstacle_distance_grid
+[0.178s] [ 44%] [32mBuilding CXX object CMakeFiles/navigation_node.dir/src/astar.cpp.o[0m
+[0.179s] [ 44%] [32mBuilding CXX object CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o[0m
+[0.194s] [ 66%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o[0m
+[0.194s] [ 66%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/astar.cpp.o[0m
+[0.408s] In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:1[m[K:
+[0.408s] [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/astar.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+[0.408s]     5 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+[0.409s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.410s] compilation terminated.
+[0.411s] gmake[2]: *** [CMakeFiles/navigation_node.dir/build.make:90: CMakeFiles/navigation_node.dir/src/astar.cpp.o] Error 1
+[0.411s] gmake[2]: *** Waiting for unfinished jobs....
+[0.433s] In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/astar.cpp:1[m[K:
+[0.433s] [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/astar.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+[0.433s]     5 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+[0.433s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.435s] compilation terminated.
+[0.437s] gmake[2]: *** [CMakeFiles/exploration_node.dir/build.make:90: CMakeFiles/exploration_node.dir/src/astar.cpp.o] Error 1
+[0.437s] gmake[2]: *** Waiting for unfinished jobs....
+[0.686s] In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/navigation_node.cpp:1[m[K:
+[0.686s] [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/navigation_node.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+[0.686s]     9 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+[0.686s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.686s] compilation terminated.
+[0.690s] gmake[2]: *** [CMakeFiles/navigation_node.dir/build.make:76: CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o] Error 1
+[0.691s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/navigation_node.dir/all] Error 2
+[0.691s] gmake[1]: *** Waiting for unfinished jobs....
+[0.714s] In file included from [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/src/exploration_node.cpp:1[m[K:
+[0.714s] [01m[K/home/mbot/mbot_ros_labs/src/mbot_nav/include/exploration_node.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kmbot_interfaces/msg/pose2_d_array.hpp: No such file or directory
+[0.714s]     7 | #include [01;31m[K"mbot_interfaces/msg/pose2_d_array.hpp"[m[K
+[0.714s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.714s] compilation terminated.
+[0.718s] gmake[2]: *** [CMakeFiles/exploration_node.dir/build.make:76: CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o] Error 1
+[0.718s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/exploration_node.dir/all] Error 2
+[0.719s] gmake: *** [Makefile:146: all] Error 2
+[0.723s] Invoked command in '/home/mbot/mbot_ros_labs/src/build/mbot_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mbot/mbot_ws/install/mbot_vision:/home/mbot/mbot_ws/install/mbot_bringup:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mbot/mbot_ros_labs/src/build/mbot_nav -- -j4 -l4

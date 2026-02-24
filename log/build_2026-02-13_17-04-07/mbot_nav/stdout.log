@@ -1,0 +1,39 @@
+[ 22%] Built target obstacle_distance_grid
+[ 55%] Built target navigation_node
+[100%] Built target exploration_node
+-- Install configuration: ""
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/lib/mbot_nav/navigation_node
+-- Set non-toolchain portion of runtime path of "/home/mbot/mbot_ros_labs/src/install/mbot_nav/lib/mbot_nav/navigation_node" to ""
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/lib/mbot_nav/exploration_node
+-- Set non-toolchain portion of runtime path of "/home/mbot/mbot_ros_labs/src/install/mbot_nav/lib/mbot_nav/exploration_node" to ""
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/lib/libobstacle_distance_grid.a
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/include
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/include/navigation_node.hpp
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/include/obstacle_distance_grid.hpp
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/include/exploration_node.hpp
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/include/astar.hpp
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/include/frontier_explorer.hpp
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/maps
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/maps/maze2.pgm
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/maps/maze1.pgm
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/maps/maze2.yaml
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/maps/maze1.yaml
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/launch
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/launch/path_planning.launch.py
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/rviz
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/rviz/path_planning.rviz
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/ament_index/resource_index/package_run_dependencies/mbot_nav
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/ament_index/resource_index/parent_prefix_path/mbot_nav
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/environment/ament_prefix_path.sh
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/environment/ament_prefix_path.dsv
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/environment/path.sh
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/environment/path.dsv
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/local_setup.bash
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/local_setup.sh
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/local_setup.zsh
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/local_setup.dsv
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/package.dsv
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/ament_index/resource_index/packages/mbot_nav
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/cmake/mbot_navConfig.cmake
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/cmake/mbot_navConfig-version.cmake
+-- Installing: /home/mbot/mbot_ros_labs/src/install/mbot_nav/share/mbot_nav/package.xml

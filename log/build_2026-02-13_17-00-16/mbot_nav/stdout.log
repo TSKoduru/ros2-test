@@ -1,0 +1,5 @@
+[ 22%] Built target obstacle_distance_grid
+[ 33%] [32mBuilding CXX object CMakeFiles/navigation_node.dir/src/astar.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/navigation_node.dir/src/navigation_node.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/exploration_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/exploration_node.dir/src/astar.cpp.o[0m
